@@ -436,3 +436,35 @@ h2 span {
 .contact-item:hover h3 {
   color: var(--purple-bright);
 }
+/* Container da foto para garantir centralização e espaçamento */
+.profile-wrapper {
+  display: flex;
+  justify-content: flex-start; /* Alinha à esquerda acompanhando o texto */
+  margin-bottom: 20px;
+}
+
+.profile-pic {
+  width: 120px; /* Tamanho no desktop */
+  height: 120px;
+  border-radius: 50%; /* Deixa redonda */
+  object-fit: cover; /* Garante que não distorça a imagem */
+  border: 3px solid var(--purple); /* Usa a cor roxa que você já tem no projeto */
+  box-shadow: 0 0 20px rgba(168, 85, 247, 0.4); /* Efeito de brilho leve */
+  transition: transform 0.3s ease;
+}
+
+.profile-pic:hover {
+  transform: scale(1.05) rotate(5deg); /* Efeito interativo ao passar o mouse */
+}
+
+/* Responsividade para Celular */
+@media (max-width: 768px) {
+  .profile-wrapper {
+    justify-content: center; /* Centraliza no celular */
+  }
+
+  .profile-pic {
+    width: 100px;
+    height: 100px;
+  }
+}
