@@ -6,20 +6,29 @@ let isDeleting = false;
 
 function type() {
   const currentPhrase = phrases[phraseIndex];
+  const isCoder = currentPhrase === "& Coder";
   
+  // Obtém o texto atual sendo digitado
+  let currentText = currentPhrase.substring(0, charIndex);
+
+  // Se for a frase do Coder, envolvemos o texto atual na classe outline
+  if (isCoder) {
+    textElement.innerHTML = `<span class="outline">${currentText}</span>`;
+  } else {
+    textElement.innerHTML = currentText;
+  }
+
   if (isDeleting) {
-    textElement.innerHTML = currentPhrase.substring(0, charIndex - 1);
     charIndex--;
   } else {
-    textElement.innerHTML = currentPhrase.substring(0, charIndex + 1);
     charIndex++;
   }
 
-  let typeSpeed = isDeleting ? 100 : 200;
+  let typeSpeed = isDeleting ? 80 : 150;
 
-  if (!isDeleting && charIndex === currentPhrase.length) {
+  if (!isDeleting && charIndex === currentPhrase.length + 1) {
     isDeleting = true;
-    typeSpeed = 2000; // Pausa no final da frase
+    typeSpeed = 2000; 
   } else if (isDeleting && charIndex === 0) {
     isDeleting = false;
     phraseIndex = (phraseIndex + 1) % phrases.length;
