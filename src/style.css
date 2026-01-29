@@ -468,3 +468,58 @@ h2 span {
     height: 100px;
   }
 }
+.profile-pic {
+  display: block; /* Garante que a imagem se comporte como bloco */
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid var(--purple);
+  box-shadow: 0 0 20px rgba(168, 85, 247, 0.4);
+  transition: transform 0.3s ease;
+  background-color: var(
+    --card-bg
+  ); /* Caso a imagem demore a carregar, fica um fundo */
+}
+/* Container da foto para garantir centralização e espaçamento */
+.profile-wrapper {
+  display: flex;
+  justify-content: flex-start; 
+  margin-bottom: 25px;
+}
+
+.profile-pic {
+  display: block;
+  width: 140px; /* Aumentei um pouco para destaque */
+  height: 140px;
+  border-radius: 50% !important; /* Força o arredondamento */
+  object-fit: cover; /* Não distorce a imagem */
+  border: 4px solid var(--purple);
+  box-shadow: 0 0 25px rgba(139, 92, 246, 0.4);
+  transition: all 0.4s var(--ease);
+  background-color: var(--card-bg);
+}
+
+.profile-pic:hover {
+  transform: scale(1.08) rotate(3deg);
+  border-color: var(--purple-bright);
+  box-shadow: 0 0 35px rgba(139, 92, 246, 0.6);
+}
+
+/* Ajuste de Responsividade para o Hero */
+@media (max-width: 1000px) {
+  .hero {
+    flex-direction: column-reverse; /* Foto e texto em ordem melhor no mobile */
+    text-align: center;
+    height: auto;
+    padding: 120px 5vw 50px;
+  }
+  
+  .profile-wrapper {
+    justify-content: center; /* Centraliza a foto no mobile */
+  }
+
+  .hero-content p {
+    margin: 0 auto 30px auto;
+  }
+}
