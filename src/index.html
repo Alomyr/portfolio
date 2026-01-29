@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alomyr | Designer & Dev</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">ALOMYR<span>.</span></div>
+      <nav>
+        <a href="#projects">Trabalhos</a>
+        <a href="#skills">Habilidades</a>
+        <a href="#about">Sobre</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-content">
+          <h1 id="typewriter" class="typewriter-text"></h1>
+          <p>
+            Especialista em arquitetura de sistemas Python e interfaces minimalistas. 
+            Transformando lógica complexa em experiências visuais simples.
+          </p>
+          <div class="btn-group">
+            <a href="#projects" class="btn">Ver Projetos</a>
+            <a href="link-do-seu-curriculo.pdf" target="_blank" class="btn btn-outline">Baixar Currículo</a>
+          </div>
+        </div>
+
+        <div class="card-container">
+          <div class="split-card">
+            <div class="side design">DESIGN</div>
+            <div class="side coder">CODER</div>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" class="skills-section">
+        <h2>Minhas <span>Ferramentas</span></h2>
+        <div class="skills-grid">
+          <div class="skill-item">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python">
+            <span>Python</span>
+          </div>
+          <div class="skill-item">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" alt="PostgreSQL">
+            <span>PostgreSQL</span>
+          </div>
+          <div class="skill-item">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JS">
+            <span>JavaScript</span>
+          </div>
+          <div class="skill-item">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React">
+            <span>React.js</span>
+          </div>
+          <div class="skill-item">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5">
+            <span>HTML5</span>
+          </div>
+          <div class="skill-item">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3">
+            <span>CSS3</span>
+          </div>
+          <div class="skill-item">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" alt="Figma">
+            <span>Figma</span>
+          </div>
+          <div class="skill-item">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git">
+            <span>Git</span>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects">
+        <h2>Selected <span>Works</span></h2>
+        <div class="grid">
+          <div class="project-card">
+            <span class="tag">Python & SQL</span>
+            <h3>Task System CLI</h3>
+            <p>Arquitetura MVC completa com persistência em PostgreSQL e documentação automática.</p>
+            <a href="https://github.com/Alomyr/Sistema-de-Controle-em-Py3" target="_blank" style="color: var(--purple); text-decoration: none; font-weight: 700;">View GitHub →</a>
+          </div>
+          <div class="project-card">
+            <span class="tag">Automation</span>
+            <h3>Cripto Bot</h3>
+            <p>Monitoramento de APIs em tempo real para análise de ativos digitais.</p>
+            <a href="#" style="color: var(--purple); text-decoration: none; font-weight: 700;">View GitHub →</a>
+          </div>
+          <div class="project-card">
+            <span class="tag">Design System</span>
+            <h3>Portfolio V1</h3>
+            <p>Interface responsiva focada em tipografia e performance para GitHub Pages.</p>
+            <a href="#" style="color: var(--purple); text-decoration: none; font-weight: 700;">View GitHub →</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" style="border-top: 1px solid #111;">
+        <h2>About <span>Me</span></h2>
+        <p style="font-size: 1.4rem; max-width: 800px; font-weight: 300; color: var(--muted);">
+          Sou um desenvolvedor que acredita que o código deve ser tão limpo quanto o design. 
+          Foco na criação de ferramentas eficientes usando <strong>Python</strong> para o back-end 
+          e princípios de <strong>UI/UX</strong> para o front-end.
+        </p>
+      </section>
+    </main>
+
+    <footer style="padding: 60px 10vw; border-top: 1px solid #111; display: flex; justify-content: space-between; color: var(--muted); font-size: 0.8rem;">
+      <p>© 2026 Alomyr. Built with code & coffee.</p>
+      <div>
+        <a href="https://github.com/Alomyr" style="color: var(--muted); margin-left: 20px;">GitHub</a>
+        <a href="#" style="color: var(--muted); margin-left: 20px;">LinkedIn</a>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
