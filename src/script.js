@@ -1,13 +1,13 @@
 const textElement = document.getElementById("typewriter");
-const phrases = ["Designer", "& Coder"];
+const phrases = ["Matheus", "de Castro"];
 let phraseIndex = 0;
 let charIndex = 0;
 let isDeleting = false;
 
 function type() {
   const currentPhrase = phrases[phraseIndex];
-  const isCoder = currentPhrase === "& Coder";
-  
+  const isCoder = currentPhrase === "de Castro";
+
   // Obtém o texto atual sendo digitado
   let currentText = currentPhrase.substring(0, charIndex);
 
@@ -28,7 +28,7 @@ function type() {
 
   if (!isDeleting && charIndex === currentPhrase.length + 1) {
     isDeleting = true;
-    typeSpeed = 2000; 
+    typeSpeed = 2000;
   } else if (isDeleting && charIndex === 0) {
     isDeleting = false;
     phraseIndex = (phraseIndex + 1) % phrases.length;
