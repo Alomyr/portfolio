@@ -49,7 +49,7 @@ Atualmente curso o Bacharelado em Tecnologia da Informação (BTI) e possuo form
 
 ## 📩 Contato
 
-Se você gostou do meu trabalho ou quer trocar uma ideia sobre filosofia e tecnologia, sinta-se à vontade para me chamar:
+Se você gostou do meu trabalho ou quer trocar uma ideia sobre artes, filosofia e tecnologia, sinta-se à vontade para me chamar:
 
     LinkedIn: Matheus de Castro
 
