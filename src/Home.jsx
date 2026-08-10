@@ -30,13 +30,18 @@ function Home({ onNavigateToHobbies, onBackToHome }) {
     {
       title: "IT Intern",
       company: "Detran",
-      time: "Junho 2026 - Atual",
-      bullets: ["Em andamento"],
+      time: "Junho 2026 - Atualmente",
+      bullets: [
+        "Projetar, desenvolver e implementar softwares para atender as necessidades do Órgão;",
+        "Utilizando tecnicas de programação e gestão de projetos;",
+        "Desenvolver analise de requisitos;",
+        "Desenvolver projetos para aplicativo mobile. ",
+      ],
     },
     {
       title: "IT Intern",
       company: "Cachina Soluções",
-      time: "Março 2026 - Atualmente",
+      time: "Março 2026 - Julho 2026",
       bullets: [
         "Desenvolvimento e otimização de arquiteturas de backend;",
         "Automação de fluxos de trabalho inteligentes utilizando n8n integrados a ecossistemas digitais;",
@@ -45,11 +50,13 @@ function Home({ onNavigateToHobbies, onBackToHome }) {
       ],
     },
     {
-      title: "IT Technician Training",
-      company: "UFRN Campus Natal",
-      time: "2024 - Atual",
+      title: "Bacharelado em Tecnologia da Informação (BTI)",
+      company: "UFRN - Campus Natal",
+      time: "2024.1 - Presente",
       bullets: [
-        "Foco em desenvolvimento de Software e machine learning, em construção...",
+        "Cursando o 6º período",
+        "Sólida base acadêmica em algoritmos, estruturas de dados avançadas, estatística e álgebra linear aplicadas.",
+        "Foco em andamento nas áreas de MLOps, Deep Learning, Aprendizado por Reforço e Computação de Alto Desempenho.",
       ],
     },
     {
