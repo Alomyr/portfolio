@@ -32,7 +32,7 @@ function Intereceses({ mensagem, capa1, capa2, capa3, capa4, capa5, capa6 }) {
           <div className="hobby-content">
             <span className="hobby-category">Gaming</span>
             <h3>Campaign and narratives</h3>
-            <p>De Elden Ring a cuphead.</p>
+            <p>Jogos arcades e Campanhas</p>
           </div>
         </div>
 
@@ -40,8 +40,8 @@ function Intereceses({ mensagem, capa1, capa2, capa3, capa4, capa5, capa6 }) {
           <img src={capa3} alt="Desenho" />
           <div className="hobby-content">
             <span className="hobby-category">Future</span>
-            <h3>AR & AI</h3>
-            <p>O futuro da Realidade Aumentada.</p>
+            <h3>IA & ML</h3>
+            <p>Ciencia de Dados e Machine Learning Engineer </p>
           </div>
         </div>
 
