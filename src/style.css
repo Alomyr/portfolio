@@ -837,6 +837,45 @@ h2 span {
   font-size: 1.1rem;
 }
 
+.about-frameworks {
+  margin-top: 25px;
+  margin-bottom: 35px;
+}
+
+.about-frameworks-title {
+  font-size: 0.95rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  color: var(--purple-bright);
+  margin-bottom: 14px;
+}
+
+.about-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.tag-framework {
+  font-size: 0.85rem;
+  font-weight: 600;
+  padding: 6px 14px;
+  border-radius: 6px;
+  background: rgba(139, 92, 246, 0.08);
+  border: 1px solid rgba(139, 92, 246, 0.25);
+  color: #ffffff;
+  letter-spacing: 0.3px;
+  transition: all 0.3s var(--ease);
+}
+
+.tag-framework:hover {
+  background: rgba(139, 92, 246, 0.22);
+  border-color: var(--purple-bright);
+  box-shadow: 0 0 15px rgba(139, 92, 246, 0.35);
+  transform: translateY(-2px);
+}
+
 /* ==========================================================================
    CONTACT SECTION - ENGENHARIA DE FLUXO DE COMPUTAÇÃO
    ========================================================================== */ /* ==========================================================================

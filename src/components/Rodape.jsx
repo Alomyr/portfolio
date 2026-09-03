@@ -2,7 +2,7 @@ function Rodape({ ano, github_link, linkedin_link }) {
   return (
     <>
       <p>© {ano} Matheus de Castro. Built with code & coffee.</p>
-      <div class="footer-links">
+      <div className="footer-links">
         <a href={github_link} target="_blank">
           GitHub
         </a>

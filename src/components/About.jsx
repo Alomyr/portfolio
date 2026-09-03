@@ -14,7 +14,7 @@ function About({ descriptionP1, descriptionP2, onAction }) {
         <p className="about-text text-muted">{descriptionP2}</p>
 
         <button onClick={onAction} className="btn btn-outline">
-          Explore
+          Explore Me
         </button>
       </div>
     </>

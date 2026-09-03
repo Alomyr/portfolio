@@ -31,13 +31,18 @@ function Projects() {
 
         <div className="project-card">
           <div className="project-header">
-            <span className="tag">Python & SQL</span>
+            <span className="tag">Deep Learning</span>
+            <span className="tag font-bold">Python</span>
           </div>
-          <h3>Task System CLI</h3>
-          <p>Arquitetura MVC completa com persistência em PostgreSQL.</p>
+          <h3>Medical Image Segmentation</h3>
+          <p>
+            Pipeline de Deep Learning supervisionado para segmentação pixel a
+            pixel de estruturas e lesões em imagens médicas utilizando
+            arquitetura U-Net.
+          </p>
           <div className="project-links">
             <a
-              href="https://github.com/Matheus-dCastro/Sistema-de-Controle-em-Py3"
+              href="https://github.com/Matheus-dCastro/Projeto-de-AM-Supervisionado"
               target="_blank"
               className="link-arrow"
             >
@@ -48,16 +53,17 @@ function Projects() {
 
         <div className="project-card">
           <div className="project-header">
-            <span className="tag">C++</span>
+            <span className="tag">VS Code Theme</span>
+            <span className="tag font-bold">UI & Design</span>
           </div>
-          <h3>Zombie Dice</h3>
+          <h3>Obsidian Neon Theme</h3>
           <p>
-            Implementação orientada a objetos e máquina de estados para execução
-            de jogo de dados lógico via terminal CLI.
+            Tema e suíte visual para VS Code com paletas neon de alto contraste,
+            ícones customizados e realce de sintaxe semântico refinado.
           </p>
           <div className="project-links">
             <a
-              href="https://github.com/Matheus-dCastro/trabalho-06-projeto-zombie-dice-Turma-DIM0176---PROGRAMA-O-I---T02-2025.1-.git"
+              href="https://github.com/Matheus-dCastro/obsidian-neon-thema"
               target="_blank"
               className="link-arrow"
             >
@@ -95,16 +101,13 @@ function Projects() {
 
         <div className="project-card">
           <div className="project-header">
-            <span className="tag">Python & Data</span>
+            <span className="tag">Python & SQL</span>
           </div>
-          <h3>Supervised Machine Learning</h3>
-          <p>
-            Análise estatística e implementação prática de algoritmos preditivos
-            supervisionados utilizando Scikit-Learn e Jupyter Notebooks.
-          </p>
+          <h3>Task System CLI</h3>
+          <p>Arquitetura MVC completa com persistência em PostgreSQL.</p>
           <div className="project-links">
             <a
-              href="https://github.com/Matheus-dCastro/Apredizado-de-maquina-supervisonado"
+              href="https://github.com/Matheus-dCastro/Sistema-de-Controle-em-Py3"
               target="_blank"
               className="link-arrow"
             >
@@ -112,23 +115,7 @@ function Projects() {
             </a>
           </div>
         </div>
-        <div className="project-card">
-          <div className="project-header">
-            <span className="tag">Game in CPP</span>
-          </div>
-          <h3>Projeto snaze</h3>
-          <p>
-            implement a simulation in which your program must guide a snake
-            through a maze to a piece of food that appears in a random position.
-          </p>
-          <a
-            href="https://github.com/Matheus-dCastro/trabalho-07-projeto-snaze--Turma-DIM0176---PROGRAMA-O-I---T02-2025.1-.git"
-            target="_blank"
-            className="link-arrow"
-          >
-            View GitHub →
-          </a>
-        </div>
+
         <div className="project-card">
           <div className="project-header">
             <span className="tag">Java</span>
@@ -148,6 +135,47 @@ function Projects() {
             </a>
           </div>
         </div>
+
+        <div className="project-card">
+          <div className="project-header">
+            <span className="tag">C++</span>
+          </div>
+          <h3>Zombie Dice</h3>
+          <p>
+            Implementação orientada a objetos e máquina de estados para execução
+            de jogo de dados lógico via terminal CLI.
+          </p>
+          <div className="project-links">
+            <a
+              href="https://github.com/Matheus-dCastro/trabalho-06-projeto-zombie-dice-Turma-DIM0176---PROGRAMA-O-I---T02-2025.1-.git"
+              target="_blank"
+              className="link-arrow"
+            >
+              View GitHub <span>→</span>
+            </a>
+          </div>
+        </div>
+
+        <div className="project-card">
+          <div className="project-header">
+            <span className="tag">Game in CPP</span>
+          </div>
+          <h3>Projeto snaze</h3>
+          <p>
+            implement a simulation in which your program must guide a snake
+            through a maze to a piece of food that appears in a random position.
+          </p>
+          <div className="project-links">
+            <a
+              href="https://github.com/Matheus-dCastro/trabalho-07-projeto-snaze--Turma-DIM0176---PROGRAMA-O-I---T02-2025.1-.git"
+              target="_blank"
+              className="link-arrow"
+            >
+              View GitHub <span>→</span>
+            </a>
+          </div>
+        </div>
+
         <div className="project-card">
           <div className="project-header">
             <span className="tag">CPP</span>
@@ -157,13 +185,15 @@ function Projects() {
             O objetivo do programa é produzir senhas de complexidade e tamanho
             variados, dependendo das escolhas de configuração do usuário.
           </p>
-          <a
-            href="https://github.com/Matheus-dCastro/trabalho-03-projeto-passgen-Turma-DIM0176---PROGRAMA-O-I---T02-2025.1-"
-            target="_blank"
-            className="link-arrow"
-          >
-            View GitHub →
-          </a>
+          <div className="project-links">
+            <a
+              href="https://github.com/Matheus-dCastro/trabalho-03-projeto-passgen-Turma-DIM0176---PROGRAMA-O-I---T02-2025.1-"
+              target="_blank"
+              className="link-arrow"
+            >
+              View GitHub <span>→</span>
+            </a>
+          </div>
         </div>
       </div>
     </>

@@ -1,4 +1,3 @@
-import { useState } from "react";
 import HeadSite from "./components/HeadSite";
 import Perfil from "./components/Perfil";
 
@@ -8,7 +7,6 @@ import Experience from "./components/Experience";
 import Projects from "./components/Projects";
 import Contacts from "./components/Contacts";
 import About from "./components/About";
-import Hobbies from "./Hobbies";
 import logoWolf from "./assets/img/wolf(2).png";
 import fotoAlomyr from "./assets/img/alomyr.jpeg";
 import cvMatheus from "./docs/Matheus Vinicius Silva Freire de Castro.pdf";
@@ -73,7 +71,7 @@ function Home({ onNavigateToHobbies, onBackToHome }) {
   const descriptionP1About =
     "I am an Information Technology (BTI) student at UFRN, specializing in building robust back-end architectures and processing intelligent pipelines. I bridge the mathematical rigor of <strong>Machine Learning Engineering</strong> with the clean aesthetic execution of software architecture.";
   const descriptionP2About =
-    " With practical experience in automated workflows, and relational data structures, I scale code with the same milimetric precision I apply to hyperrealism drawings. Studying to become a machine learning engineer";
+    "With practical experience in automated workflows and relational data structures, I scale code with the same millimetric precision I apply to hyperrealism drawings. Studying to become a machine learning engineer.";
   const Contatos = {
     instagram: "@MatheusdCastro._",
     instagram_link: "https://www.instagram.com/matheusdcastro._/",
@@ -99,6 +97,7 @@ function Home({ onNavigateToHobbies, onBackToHome }) {
             nomeCompleto={dados.nomeCompleto}
             description={descriptionPerfil}
             foto={fotoPerfil}
+            
             cv={cv}
           />
           <section id="skills" className="skills-section">
@@ -110,7 +109,7 @@ function Home({ onNavigateToHobbies, onBackToHome }) {
           <section id="projects" className="Projects-section">
             <Projects />
           </section>
-          <section id="about" class="about-section">
+          <section id="about" className="about-section">
             <About
               descriptionP1={descriptionP1About}
               descriptionP2={descriptionP2About}
@@ -118,7 +117,7 @@ function Home({ onNavigateToHobbies, onBackToHome }) {
             />
           </section>
         </main>
-        <section id="contact" class="contact-section">
+        <section id="contact" className="contact-section">
           <Contacts
             instagram={Contatos.instagram}
             instagram_link={Contatos.instagram_link}
